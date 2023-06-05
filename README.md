@@ -1,8 +1,22 @@
-# cadastro
+# OptiBody
 
 A new Flutter project.
 
-## Getting Started
+## Equipe de Projeto
+
+Felipe Carvalho dos Reis - RA: 420109497
+Luana Gallam Rocha       - RA: 420111883
+Silvana Vaz Osório       - RA: 420100398
+
+# Descritivo do Projeto
+
+O aplicativo tem como objetivo e foco principal obter um corpo ideal. Ao calcular o IMC permite 
+que o usuário tenha uma abordagem e entendam o status.
+
+# Telas App
+
+
+
 
 This project is a starting point for a Flutter application.
 
