@@ -1,6 +1,6 @@
 # OptiBody
 
-A new Flutter project.
+Criado um nome que significa busca de um físico ideal e bem equilibrado.
 
 ## Equipe de Projeto
 
