@@ -5,7 +5,7 @@ import 'ui/cadastro.dart';
 
 //
 void main() => runApp(MaterialApp(
-  //home: new Cadastro(),
-  home: Home(),
+  home: new Cadastro(),
+  //home: Home(),
   debugShowCheckedModeBanner: false,
 ));

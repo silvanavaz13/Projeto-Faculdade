@@ -11,7 +11,7 @@ class Cadastro extends StatefulWidget {
 class _CadastroState extends State<Cadastro> {
   final TextEditingController _usuarioController = new TextEditingController();
   final TextEditingController _senhaController = new TextEditingController();
-  String _bemvindo = "Bem-Vindo";
+  String _bemvindo = "";
 
 
 
@@ -66,19 +66,7 @@ class _CadastroState extends State<Cadastro> {
                     child: Row(
                       mainAxisAlignment: MainAxisAlignment.spaceEvenly,
                       children: <Widget>[
-                        //RecuperarSenha
-                        Container(
-                          height: 40,
-                          alignment: Alignment.centerLeft,
-                          child: TextButton(
-                            onPressed: () {  },
-                            child: Text(
-                              "Esqueceu Senha",
-                              textAlign: TextAlign.left,
-                              style: TextStyle(color: Colors.grey[600]),
-                            ),
-                          ),
-                        ),
+
                         //Entrar
                         Container(
                            margin: (EdgeInsets.only(top: 10, left: 25, right: 25)),
@@ -86,10 +74,12 @@ class _CadastroState extends State<Cadastro> {
                   width: 200,
                   decoration: BoxDecoration(
                     color: Colors.blue,
-                    borderRadius: BorderRadius.all(Radius.circular(32))),
-                          child: TextButton(
+                    borderRadius: BorderRadius.all(Radius.circular(18))),
+                          child: ElevatedButton(
                             onPressed: () {
-                              Navigator.push(context, Home() as Route<Home>,);
+                              Navigator.push(context,
+                                MaterialPageRoute(builder: (context) => Home()),
+                              );
                             },
                             child: Center(
                               child: Text(
