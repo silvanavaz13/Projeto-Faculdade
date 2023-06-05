@@ -5,7 +5,9 @@ Criado um nome que significa busca de um físico ideal e bem equilibrado.
 ## Equipe de Projeto
 
 Felipe Carvalho dos Reis - RA: 420109497
+
 Luana Gallam Rocha       - RA: 420111883
+
 Silvana Vaz Osório       - RA: 420100398
 
 # Descritivo do Projeto
